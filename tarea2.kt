@@ -3,7 +3,7 @@
 *
 *	1) dado un entero positivo n, si este es par lo dividimos entre dos, y si es impar lo multiplicamos por tres y sumamos uno
 *	2) repetimos este procedimiento una y otra vez 
-	
+*	
 * La conjetura de Collatz afirma que este proceso siempre termina, y más aún, siempre se llega al número uno. 
 * La comunidad matemática aún está en busca de una demostración de esto.
 *
@@ -11,7 +11,7 @@
 */
 
 /**
-* Esta funcion regresa en numero de pasos para que se cumpla la conjetura de Collatz.
+* Esta funcion regresa en numero de pasos para el cual se cumple la conjetura de Collatz.
 * @param entero el numero con el que inicia el algoritmo de la conjetura.
 * @param paso el numero de iteracion al momento de llamar al algoritmo.
 * @return el numero de pasos hasta que se llega al uno.
@@ -37,9 +37,13 @@ fun collatz(entero: Int) {
 	println("Para el número ${entero} se verificó la conjetura de Collatz después de ${collatz(entero,0)} pasos") 
 }
 
+/**
+* Algunos ejemplos.
+*/
 fun main() {
 	collatz(1)
 	collatz(2)
 	collatz(12)
 	collatz(27)
+	collatz(77031)
 }
