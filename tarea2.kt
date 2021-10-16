@@ -1,12 +1,4 @@
 /** 
-* Este programa verifica la conjetura de Collatz: 
-*
-*	1) dado un entero positivo n, si este es par lo dividimos entre dos, y si es impar lo multiplicamos por tres y sumamos uno
-*	2) repetimos este procedimiento una y otra vez 
-*	
-* La conjetura de Collatz afirma que este proceso siempre termina, y más aún, siempre se llega al número uno. 
-* La comunidad matemática aún está en busca de una demostración de esto.
-*
 * @author Eduardo Lara Ramirez.
 */
 
