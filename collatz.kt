@@ -22,7 +22,7 @@ fun collatz(entero: Int, paso: Int): Int {
 }
 
 /**
-* Esta funcion no imprime en pantalla despues de cuantos pasos se verifico la conjetura.
+* Esta funcion imprime en pantalla despues de cuantos pasos se verifico la conjetura.
 * @param entero el numero con el que se ejecuta el algoritmo.
 */
 fun collatz(entero: Int) {
